@@ -12,6 +12,14 @@
 		7C165E341FCBE42C00255A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C165E321FCBE42C00255A34 /* Main.storyboard */; };
 		7C165E361FCBE42C00255A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C165E351FCBE42C00255A34 /* Assets.xcassets */; };
 		7C165E391FCBE42C00255A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C165E371FCBE42C00255A34 /* LaunchScreen.storyboard */; };
+		7C165E431FCBE78A00255A34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E421FCBE78A00255A34 /* LoginViewController.swift */; };
+		7C165E451FCBFEA400255A34 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E441FCBFEA400255A34 /* SignUpViewController.swift */; };
+		7C165E4A1FCC1F0C00255A34 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E481FCC1F0C00255A34 /* Model.xcdatamodeld */; };
+		7C165E4D1FCC201B00255A34 /* SignInUp+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E4B1FCC201B00255A34 /* SignInUp+CoreDataClass.swift */; };
+		7C165E4E1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E4C1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift */; };
+		7C6BD3371FCD28020082704B /* WelcomeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */; };
+		7C75B6A91FCEB8B70002C9C6 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */; };
+		7CA396231FCEE456005155E9 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,15 @@
 		7C165E351FCBE42C00255A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C165E381FCBE42C00255A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C165E3A1FCBE42C00255A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C165E421FCBE78A00255A34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7C165E441FCBFEA400255A34 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7C165E471FCC1D2400255A34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7C165E491FCC1F0C00255A34 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7C165E4B1FCC201B00255A34 /* SignInUp+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInUp+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7C165E4C1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInUp+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeLoginViewController.swift; sourceTree = "<group>"; };
+		7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +55,11 @@
 		7C165E221FCBE42B00255A34 = {
 			isa = PBXGroup;
 			children = (
+				7C165E4B1FCC201B00255A34 /* SignInUp+CoreDataClass.swift */,
+				7C165E4C1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift */,
 				7C165E2D1FCBE42C00255A34 /* LoginAndRegister */,
 				7C165E2C1FCBE42C00255A34 /* Products */,
+				7C165E461FCC1D2400255A34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,36 @@
 		7C165E2D1FCBE42C00255A34 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				7CA396241FCEE9A3005155E9 /* Profile */,
 				7C165E2E1FCBE42C00255A34 /* AppDelegate.swift */,
 				7C165E301FCBE42C00255A34 /* ViewController.swift */,
+				7C165E421FCBE78A00255A34 /* LoginViewController.swift */,
+				7C165E441FCBFEA400255A34 /* SignUpViewController.swift */,
 				7C165E321FCBE42C00255A34 /* Main.storyboard */,
 				7C165E351FCBE42C00255A34 /* Assets.xcassets */,
 				7C165E371FCBE42C00255A34 /* LaunchScreen.storyboard */,
 				7C165E3A1FCBE42C00255A34 /* Info.plist */,
+				7C165E481FCC1F0C00255A34 /* Model.xcdatamodeld */,
 			);
 			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		7C165E461FCC1D2400255A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C165E471FCC1D2400255A34 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CA396241FCEE9A3005155E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */,
+				7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */,
+				7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +139,11 @@
 					7C165E2A1FCBE42C00255A34 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -136,7 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C165E4D1FCC201B00255A34 /* SignInUp+CoreDataClass.swift in Sources */,
+				7C165E4E1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift in Sources */,
+				7CA396231FCEE456005155E9 /* ForgetPasswordViewController.swift in Sources */,
+				7C165E431FCBE78A00255A34 /* LoginViewController.swift in Sources */,
 				7C165E311FCBE42C00255A34 /* ViewController.swift in Sources */,
+				7C165E4A1FCC1F0C00255A34 /* Model.xcdatamodeld in Sources */,
+				7C165E451FCBFEA400255A34 /* SignUpViewController.swift in Sources */,
+				7C6BD3371FCD28020082704B /* WelcomeLoginViewController.swift in Sources */,
+				7C75B6A91FCEB8B70002C9C6 /* LogoutViewController.swift in Sources */,
 				7C165E2F1FCBE42C00255A34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +379,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C165E481FCC1F0C00255A34 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C165E491FCC1F0C00255A34 /* Model.xcdatamodel */,
+			);
+			currentVersion = 7C165E491FCC1F0C00255A34 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7C165E231FCBE42B00255A34 /* Project object */;
 }
