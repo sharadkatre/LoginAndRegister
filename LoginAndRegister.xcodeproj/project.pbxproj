@@ -19,11 +19,18 @@
 		7C165E4E1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C165E4C1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift */; };
 		7C6BD3371FCD28020082704B /* WelcomeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */; };
 		7C75B6A91FCEB8B70002C9C6 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */; };
-		7CA396231FCEE456005155E9 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */; };
+		7C8598311FD13E8D00423FD6 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C85982F1FD13E8D00423FD6 /* ChangePasswordViewController.swift */; };
+		7C8598321FD13E8D00423FD6 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8598301FD13E8D00423FD6 /* ChangePasswordViewController.xib */; };
+		7C85CCB11FD7AE29006DC48F /* SignInArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C85CCB01FD7AE29006DC48F /* SignInArtistTableViewCell.swift */; };
+		7CC69C181FCFED4E00790A26 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC69C171FCFED4D00790A26 /* SettingsViewController.swift */; };
+		7CF2AC3E1FD50F7000979E97 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2AC3C1FD50F7000979E97 /* ForgetPasswordViewController.swift */; };
+		7CF2AC3F1FD50F7000979E97 /* ForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF2AC3D1FD50F7000979E97 /* ForgetPasswordViewController.xib */; };
+		7CF2AC411FD517F600979E97 /* SignInInterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2AC401FD517F600979E97 /* SignInInterestsViewController.swift */; };
+		7CF2AC451FD5338800979E97 /* SignInArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2AC441FD5338800979E97 /* SignInArtistsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C165E2B1FCBE42C00255A34 /* LoginAndRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C165E2B1FCBE42C00255A34 /* Connect Ink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect Ink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C165E2E1FCBE42C00255A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C165E301FCBE42C00255A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C165E331FCBE42C00255A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +45,16 @@
 		7C165E4C1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInUp+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeLoginViewController.swift; sourceTree = "<group>"; };
 		7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
-		7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		7C85982F1FD13E8D00423FD6 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		7C8598301FD13E8D00423FD6 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		7C85CCB01FD7AE29006DC48F /* SignInArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInArtistTableViewCell.swift; sourceTree = "<group>"; };
+		7CC69C171FCFED4D00790A26 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7CF2AC3C1FD50F7000979E97 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		7CF2AC3D1FD50F7000979E97 /* ForgetPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		7CF2AC401FD517F600979E97 /* SignInInterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInterestsViewController.swift; sourceTree = "<group>"; };
+		7CF2AC441FD5338800979E97 /* SignInArtistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInArtistsViewController.swift; sourceTree = "<group>"; };
+		ACBDE6513ECDA19794BA1364 /* Pods-Connect Ink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect Ink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect Ink/Pods-Connect Ink.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F6FB8EA6EA5EC7CBEB6554 /* Pods-Connect Ink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect Ink.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connect Ink/Pods-Connect Ink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D5CED37B67372622419829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDE6513ECDA19794BA1364 /* Pods-Connect Ink.debug.xcconfig */,
+				B3F6FB8EA6EA5EC7CBEB6554 /* Pods-Connect Ink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C165E221FCBE42B00255A34 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +85,14 @@
 				7C165E2D1FCBE42C00255A34 /* LoginAndRegister */,
 				7C165E2C1FCBE42C00255A34 /* Products */,
 				7C165E461FCC1D2400255A34 /* Frameworks */,
+				67D5CED37B67372622419829 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		7C165E2C1FCBE42C00255A34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C165E2B1FCBE42C00255A34 /* LoginAndRegister.app */,
+				7C165E2B1FCBE42C00255A34 /* Connect Ink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +100,7 @@
 		7C165E2D1FCBE42C00255A34 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				7C8598371FD16F3200423FD6 /* SignIn */,
 				7CA396241FCEE9A3005155E9 /* Profile */,
 				7C165E2E1FCBE42C00255A34 /* AppDelegate.swift */,
 				7C165E301FCBE42C00255A34 /* ViewController.swift */,
@@ -96,12 +123,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7C8598371FD16F3200423FD6 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				7CF2AC3C1FD50F7000979E97 /* ForgetPasswordViewController.swift */,
+				7CF2AC3D1FD50F7000979E97 /* ForgetPasswordViewController.xib */,
+				7CF2AC401FD517F600979E97 /* SignInInterestsViewController.swift */,
+				7CF2AC441FD5338800979E97 /* SignInArtistsViewController.swift */,
+				7C85CCB01FD7AE29006DC48F /* SignInArtistTableViewCell.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		7CA396241FCEE9A3005155E9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7C85982F1FD13E8D00423FD6 /* ChangePasswordViewController.swift */,
+				7C8598301FD13E8D00423FD6 /* ChangePasswordViewController.xib */,
 				7C6BD3361FCD28020082704B /* WelcomeLoginViewController.swift */,
 				7C75B6A81FCEB8B70002C9C6 /* LogoutViewController.swift */,
-				7CA396221FCEE456005155E9 /* ForgetPasswordViewController.swift */,
+				7CC69C171FCFED4D00790A26 /* SettingsViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -109,21 +150,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C165E2A1FCBE42C00255A34 /* LoginAndRegister */ = {
+		7C165E2A1FCBE42C00255A34 /* Connect Ink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C165E3D1FCBE42C00255A34 /* Build configuration list for PBXNativeTarget "LoginAndRegister" */;
+			buildConfigurationList = 7C165E3D1FCBE42C00255A34 /* Build configuration list for PBXNativeTarget "Connect Ink" */;
 			buildPhases = (
+				ECFA58952C01E20F084A0D7A /* [CP] Check Pods Manifest.lock */,
 				7C165E271FCBE42C00255A34 /* Sources */,
 				7C165E281FCBE42C00255A34 /* Frameworks */,
 				7C165E291FCBE42C00255A34 /* Resources */,
+				7137C96A6702898F97A8FECF /* [CP] Embed Pods Frameworks */,
+				1F8CAAAB637FE3DC78A805C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LoginAndRegister;
+			name = "Connect Ink";
 			productName = LoginAndRegister;
-			productReference = 7C165E2B1FCBE42C00255A34 /* LoginAndRegister.app */;
+			productReference = 7C165E2B1FCBE42C00255A34 /* Connect Ink.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C165E2A1FCBE42C00255A34 /* LoginAndRegister */,
+				7C165E2A1FCBE42C00255A34 /* Connect Ink */,
 			);
 		};
 /* End PBXProject section */
@@ -172,27 +216,85 @@
 			files = (
 				7C165E391FCBE42C00255A34 /* LaunchScreen.storyboard in Resources */,
 				7C165E361FCBE42C00255A34 /* Assets.xcassets in Resources */,
+				7C8598321FD13E8D00423FD6 /* ChangePasswordViewController.xib in Resources */,
 				7C165E341FCBE42C00255A34 /* Main.storyboard in Resources */,
+				7CF2AC3F1FD50F7000979E97 /* ForgetPasswordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8CAAAB637FE3DC78A805C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect Ink/Pods-Connect Ink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7137C96A6702898F97A8FECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect Ink/Pods-Connect Ink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFA58952C01E20F084A0D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Connect Ink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C165E271FCBE42C00255A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF2AC411FD517F600979E97 /* SignInInterestsViewController.swift in Sources */,
 				7C165E4D1FCC201B00255A34 /* SignInUp+CoreDataClass.swift in Sources */,
 				7C165E4E1FCC201B00255A34 /* SignInUp+CoreDataProperties.swift in Sources */,
-				7CA396231FCEE456005155E9 /* ForgetPasswordViewController.swift in Sources */,
+				7CF2AC451FD5338800979E97 /* SignInArtistsViewController.swift in Sources */,
+				7C85CCB11FD7AE29006DC48F /* SignInArtistTableViewCell.swift in Sources */,
 				7C165E431FCBE78A00255A34 /* LoginViewController.swift in Sources */,
 				7C165E311FCBE42C00255A34 /* ViewController.swift in Sources */,
 				7C165E4A1FCC1F0C00255A34 /* Model.xcdatamodeld in Sources */,
 				7C165E451FCBFEA400255A34 /* SignUpViewController.swift in Sources */,
+				7CF2AC3E1FD50F7000979E97 /* ForgetPasswordViewController.swift in Sources */,
 				7C6BD3371FCD28020082704B /* WelcomeLoginViewController.swift in Sources */,
 				7C75B6A91FCEB8B70002C9C6 /* LogoutViewController.swift in Sources */,
+				7C8598311FD13E8D00423FD6 /* ChangePasswordViewController.swift in Sources */,
 				7C165E2F1FCBE42C00255A34 /* AppDelegate.swift in Sources */,
+				7CC69C181FCFED4E00790A26 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +429,7 @@
 		};
 		7C165E3E1FCBE42C00255A34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBDE6513ECDA19794BA1364 /* Pods-Connect Ink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -343,6 +446,7 @@
 		};
 		7C165E3F1FCBE42C00255A34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F6FB8EA6EA5EC7CBEB6554 /* Pods-Connect Ink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -369,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C165E3D1FCBE42C00255A34 /* Build configuration list for PBXNativeTarget "LoginAndRegister" */ = {
+		7C165E3D1FCBE42C00255A34 /* Build configuration list for PBXNativeTarget "Connect Ink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C165E3E1FCBE42C00255A34 /* Debug */,
